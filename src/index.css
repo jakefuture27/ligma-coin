@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#f5e6d3] text-zinc-900 font-sans antialiased selection:bg-black selection:text-[#f5e6d3];
+  }
+}
+
+@layer components {
+  /* Simple, stark components */
+  .panel {
+    @apply bg-[#fdfaf6] border border-[#e8dcc8] rounded-xl shadow-sm;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-zinc-900 text-[#f5e6d3] font-semibold rounded-lg hover:bg-zinc-800 transition-colors inline-flex justify-center items-center shadow-md;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-transparent border border-[#d3c2af] text-zinc-800 font-semibold rounded-lg hover:bg-[#ebdcc6] transition-colors inline-flex justify-center items-center;
+  }
+}
