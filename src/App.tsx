@@ -25,7 +25,7 @@ function App() {
         </div>
         <div className="flex items-center gap-6">
           <div className="hidden sm:flex items-center gap-5 text-zinc-500">
-            <a href="#" target="_blank" rel="noreferrer" className="hover:text-zinc-900 transition-colors">
+            <a href="https://x.com/i/communities/2026862566119768508" target="_blank" rel="noreferrer" className="hover:text-zinc-900 transition-colors">
               <TwitterIcon />
             </a>
           </div>
@@ -55,7 +55,7 @@ function App() {
 
       <footer className="border-t border-[#d3c2af] py-12 flex flex-col items-center text-center text-zinc-600 text-sm">
         <div className="flex items-center gap-6 mb-8 text-zinc-500">
-          <a href="#" target="_blank" rel="noreferrer" className="hover:text-zinc-900 transition-colors">
+          <a href="https://x.com/i/communities/2026862566119768508" target="_blank" rel="noreferrer" className="hover:text-zinc-900 transition-colors">
             <TwitterIcon />
           </a>
         </div>
